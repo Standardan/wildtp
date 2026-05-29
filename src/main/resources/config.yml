@@ -1,0 +1,27 @@
+# WildTp configuration.
+
+# World to teleport within. Empty = the player's current world.
+world: ""
+
+# Search ring around the world spawn, in blocks.
+min-radius: 200
+max-radius: 5000
+
+# How many random spots to try before giving up.
+max-attempts: 25
+
+# Seconds between uses (players with wildtp.cooldown.bypass skip this).
+cooldown-seconds: 60
+
+# Never let a player land on these block types.
+unsafe-blocks:
+  - LAVA
+  - WATER
+  - FIRE
+  - SOUL_FIRE
+  - CACTUS
+  - MAGMA_BLOCK
+  - POWDER_SNOW
+  - CAMPFIRE
+  - SWEET_BERRY_BUSH
+  - WITHER_ROSE

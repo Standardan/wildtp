@@ -1,0 +1,21 @@
+name: WildTp
+version: '${project.version}'
+main: io.github.standardan.wildtp.WildTpPlugin
+api-version: '1.21'
+description: Random "wild" teleport with async safe-location scanning.
+author: Standardan
+
+commands:
+  wild:
+    description: Teleport to a random safe location in the wild.
+    usage: /wild
+    aliases: [rtp, wilderness]
+    permission: wildtp.use
+
+permissions:
+  wildtp.use:
+    description: Use /wild.
+    default: true
+  wildtp.cooldown.bypass:
+    description: Bypass the /wild cooldown.
+    default: op
